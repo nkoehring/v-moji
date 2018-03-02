@@ -13,3 +13,7 @@ v-moji (speak 'weemoji') integrates the fantastic [emojione](https://www.emojion
 By default shortcodes are translated into images without the support for ASCII emojis (eg :D ). It is disabled by default [for savety](https://demos.emojione.com/latest/ascii-smileys.html). To enable support for ASCII emojis, use the ascii argument (separated by a dot: `v-moji.ascii`).
 
 Output mode is `image` by default. Other supported modes are `unicode` and `ascii`. You can set them as modifier (separated by a colon, eg `v-mode:unicode`)
+
+## EmojiOne License
+
+Emojis from EmojiOne are free to use under certain circumstances. Please read their [license section](https://www.emojione.com/licenses)!
