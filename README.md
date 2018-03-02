@@ -10,7 +10,7 @@ v-moji (speak 'weemoji') integrates the fantastic [emojione](https://www.emojion
   <div v-moji:ascii>Made with :heart: :wink: and Vuejs</div>
 ```
 
-By default shortcodes are translated into images without the support for ASCII emojis (eg :D ). It is disabled by default [for savety](https://demos.emojione.com/latest/ascii-smileys.html). To enable support for ASCII emojis, use the ascii argument (separated by a dot: `v-moji.ascii`).
+By default shortcodes are translated into images without the support for ASCII emojis (eg :D ). It is disabled by default [for safety](https://demos.emojione.com/latest/ascii-smileys.html). To enable support for ASCII emojis, use the ascii argument (separated by a dot: `v-moji.ascii`).
 
 Output mode is `image` by default. Other supported modes are `unicode` and `ascii`. You can set them as modifier (separated by a colon, eg `v-mode:unicode`)
 
