@@ -1,0 +1,41 @@
+{
+  "name": "v-moji",
+  "version": "0.0.1",
+  "description": "V-Moji (\"weemoji\"), easy emoji transformation in vuejs",
+  "main": "./dist/v-moji.js",
+  "scripts": {
+    "build": "poi build",
+    "test": "poi test",
+    "dev": "poi --html true --format null ./example/index.js",
+    "watch": "poi watch"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "vuejs2",
+    "component",
+    "emoji",
+    "emojione",
+    "unicode"
+  ],
+  "author": "koehr <n@koehr.in>",
+  "license": "MIT",
+  "dependencies": {
+    "emojione": "^3.1.2"
+  },
+  "devDependencies": {
+    "poi": "^9.6.13"
+  },
+  "poi": {
+    "entry": "./src/index.js",
+    "filename": {
+      "js": "v-moji.js"
+    },
+    "sourceMap": true,
+    "html": false,
+    "format": "umd",
+    "module-name": "VMoji",
+    "vendor": false
+  }
+}
